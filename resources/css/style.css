@@ -871,11 +871,12 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-tabs .fh5co-tab-nav {
+    top: 70px;
   clear: both;
   margin: 0 0 3em 0;
   padding: 3px;
   float: left;
-  width: 100%;
+  /*width: 100%;*/
   background: #f2f2f2;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -883,16 +884,16 @@ h1, h2, h3, h4, h5, h6, figure {
   border-radius: 4px;
 }
 .fh5co-tabs .fh5co-tab-nav li {
-  float: left;
+ /* float: left;*/
   margin: 0;
   padding: 0;
-  width: 33.33%;
+  /*width: 33.33%;*/
   text-align: center;
   list-style: none;
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  /* *display: inline;*/
 }
 .fh5co-tabs .fh5co-tab-nav li .icon {
   font-size: 30px;
@@ -915,10 +916,11 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #d1c286;
 }
 .fh5co-tabs .fh5co-tab-content-wrap {
-  clear: both;
+ /* clear: both;*/
   position: relative;
   top: 70px;
 }
+
 .fh5co-tabs .fh5co-tab-content-wrap .tab-content {
   position: absolute;
   top: 0;
@@ -1685,3 +1687,94 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.mt-50{
+    margin-top: 50px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+
+/* 모바일 */
+@media screen and (max-width: 768px) {
+    .container{
+        margin-top: 0 !important;
+    }
+   .fh5co-tabs .fh5co-tab-nav {
+        top:0;
+      clear: both;
+      margin: 0 0 3em 0;
+      padding: 3px;
+      float: left;
+      width: 100%;
+      background: #f2f2f2;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      border-radius: 4px;
+    }
+    .fh5co-tabs .fh5co-tab-nav li {
+     float: left;
+      margin: 0;
+      padding: 0;
+      /*width: 33.33%;*/
+      text-align: center;
+      list-style: none;
+      display: -moz-inline-stack;
+      display: inline-block;
+      zoom: 1;
+      *display: inline;
+    }
+    .fh5co-tabs .fh5co-tab-content-wrap {
+     /* clear: both;*/
+      position: relative;
+      top: 120px;
+    }
+}
+
+/*  toofle 스위치*/
+.onoffswitch {
+    position: relative; width: 90px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #D1C286; border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    padding-left: 10px;
+    background-color: #D1C286; color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onoffswitch-switch {
+    display: block; width: 18px; margin: 6px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 56px;
+    border: 2px solid #D1C286; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}

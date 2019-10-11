@@ -1,6 +1,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-Frame-Options" content="deny" />
 	<title>Shop &mdash; Free Website Template, Free HTML5 Template by gettemplates.co</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by gettemplates.co" />
@@ -51,9 +52,12 @@
 
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="../resources/css/style.css">
-
+    
 	<!-- Modernizr JS -->
 	<script src="../resources/js/modernizr-2.6.2.min.js"></script>
+    
+    
+    
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>

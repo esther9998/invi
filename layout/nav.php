@@ -2,16 +2,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3 col-xs-2">
-					<div id="fh5co-logo"><a href="index.php">Shop.</a></div>
+					<div id="fh5co-logo"><a href="/">INVI.</a></div>
 				</div>
 				<div class="col-md-6 col-xs-6 text-center menu-1">
 					<ul>
 						<li class="has-dropdown">
-							<a href="index.php">Home</a>
+							<a href="/">Home</a>
 						</li>
 						<li><a href="about.html">서비스</a></li>
 						<li class="has-dropdown">
-							<a href="services.html">초대장메이커</a>
+							<a href="makingCard/index.php">초대장메이커</a>
 							<ul class="dropdown">
 								<li><a href="makingCard/index.php">웨딩</a></li>
 								<li><a href="#">돌잔치</a></li>

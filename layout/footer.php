@@ -49,9 +49,8 @@
 							<li><a href="#"><i class="icon-linkedin"></i></a></li>
 							<li><a href="#"><i class="icon-dribbble"></i></a></li>
 						</ul>
-					</p>
+                    </div>
 				</div>
-			</div>
-
-		</div>
-	</footer>
+    </div>
+</footer>
+   

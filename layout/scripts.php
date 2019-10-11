@@ -14,3 +14,5 @@
 	<script src="../resources/js/jquery.flexslider-min.js"></script>
 	<!-- Main -->
 	<script src="../resources/js/main.js"></script>
+    <!-- Bootstrap toggle 2.2.2 -->
+	<script src="../resources/js/bootstrap.min.js"></script>
